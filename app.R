@@ -93,9 +93,11 @@ ui <- page(
   ),
   
   # Hero Section
+  # Hero Section
   div(
     class = "hero-section",
-    img(src = "https://i.pravatar.cc/200", class = "profile-image"),
+    img(src = "photo.jpeg", 
+        class = "profile-image"),
     h1("Mardan Mirzaguliyev", style = "font-size: 3rem; font-weight: 700;"),
     p("Data analyst", class = "lead"),
     div(
